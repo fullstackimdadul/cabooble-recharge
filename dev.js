@@ -1,7 +1,5 @@
 
 window.addEventListener('load', (event) => {
-  
-  
   let load = false
 //   repeat if dom not render
   var count = 0
@@ -27,8 +25,6 @@ window.addEventListener('load', (event) => {
   }
   repeat()
 
-  
-  
   function runMain(){
       if(load){
       		// Define Your Selected Element
@@ -53,6 +49,5 @@ window.addEventListener('load', (event) => {
              });
     	}
   }
-  
   
 });
